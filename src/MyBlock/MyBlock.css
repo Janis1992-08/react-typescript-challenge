@@ -1,0 +1,50 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    padding: 0 20px;
+}
+
+header #branding {
+    flex: 1;
+    text-align: center;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+
